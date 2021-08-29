@@ -1,0 +1,294 @@
+/* System Background Dark */
+.systemBackgroundDark {
+    background-color: #000000ff;
+}
+
+.secondarySystemBackgroundDark {
+    background-color: #1c1c1eff;
+}
+
+.tertiarySystemBackgroundDark {
+    background-color: #1c1c1eff;
+}
+
+.systemGroupedBackgroundDark {
+    background-color: #000000ff;
+}
+
+.secondarySystemGroupedBackgroundDark {
+    background-color: #1c1c1eff;
+}
+
+.tertiarySystemGroupedBackgroundDark {
+    background-color: #2c2c2eff;
+}
+
+/* System Background Light */
+.systemBackgroundLight {
+    background-color: #ffffffff;
+}
+
+.secondarySystemBackgroundLight {
+    background-color: #f2f2f7ff;
+}
+
+.tertiarySystemBackgroundLight {
+    background-color: #ffffffff;
+}
+
+.systemGroupedBackgroundLight {
+    background-color: #f2f2f7ff;
+}
+
+.secondarySystemGroupedBackgroundLight {
+    background-color: #ffffffff;
+}
+
+.tertiarySystemGroupedBackgroundLight {
+    background-color: #f2f2f7ff;
+}
+
+/* Label Dark */
+.labelDark {
+    color: #ffffffff;
+}
+
+.secondaryLabelDark {
+    color: #ebebf599;
+}
+
+.tertiaryLabelDark {
+    color: #ebebf54d;
+}
+
+.quaternaryLabelDark {
+    color: #ebebf52e;
+}
+
+/* Label Light */
+.labelLight {
+    color: #000000ff;
+}
+
+.secondaryLabelLight {
+    color: #3c3c4399;
+}
+
+.tertiaryLabelLight {
+    color: #3c3c434d;
+}
+
+.quaternaryLabelLight {
+    color: #3c3c432e;
+}
+
+/* Place Holder */
+.placeholderTextDark {
+    color: #ebebf54d;
+}
+
+.placeholderTextLight {
+    color: #3c3c434d;
+}
+
+/* Separator */
+.separatorDark {
+    color: #54545899;
+}
+
+.opaqueSeparatorDark {
+    color: #38383aff;
+}
+
+.separatorLight {
+    color: #3c3c434a;
+}
+
+.opaqueSeparatorLight {
+    color: #c6c6c8ff;
+}
+
+/* Tint Color Dark */
+.systemBlueDark {
+    color: #0a84ffff;
+}
+
+.systemGreenDark {
+    color: #30d158ff;
+}
+
+.systemIndigoDark {
+    color: #5e5ce6ff;
+}
+
+.systemOrangeDark {
+    color: #ff9f0aff;
+}
+
+.systemPinkDark {
+    color: #ff375fff;
+}
+
+.systemPurpleDark {
+    color: #bf5af2ff;
+}
+
+.systemRedDark {
+    color: #ff453aff;
+}
+
+.systemTealDark {
+    color: #64d2ffff;
+}
+
+.systemYellowDark {
+    color: #ffd60aff;
+}
+
+/* Tint Color Light */
+.systemBlueLight {
+    color: #007affff;
+}
+
+.systemGreenLight {
+    color: #34c759ff;
+}
+
+.systemIndigoLight {
+    color: #5856d6ff;
+}
+
+.systemOrangeLight {
+    color: #ff9500ff;
+}
+
+.systemPinkLight {
+    color: #ff2d55ff;
+}
+
+.systemPurpleLight {
+    color: #af52deff;
+}
+
+.systemRedLight {
+    color: #ff3b30ff;
+}
+
+.systemTealLight {
+    color: #5ac8faff;
+}
+
+.systemYellowLight {
+    color: #ffcc00ff;
+}
+
+/* Background Color Dark */
+.systemBackgroundBlueDark {
+    background-color: #0a84ffff;
+}
+
+.systemBackgroundGreenDark {
+    background-color: #30d158ff;
+}
+
+.systemBackgroundIndigoDark {
+    background-color: #5e5ce6ff;
+}
+
+.systemBackgroundOrangeDark {
+    background-color: #ff9f0aff;
+}
+
+.systemBackgroundPinkDark {
+    background-color: #ff375fff;
+}
+
+.systemBackgroundPurpleDark {
+    background-color: #bf5af2ff;
+}
+
+.systemBackgroundRedDark {
+    background-color: #ff453aff;
+}
+
+.systemBackgroundTealDark {
+    background-color: #64d2ffff;
+}
+
+.systemBackgroundYellowDark {
+    background-color: #ffd60aff;
+}
+
+/* Backgroung Color Light */
+.systemBackgroundBlueLight {
+    background-color: #007affff;
+}
+
+.systemBackgroundGreenLight {
+    background-color: #34c759ff;
+}
+
+.systemBackgroundIndigoLight {
+    background-color: #5856d6ff;
+}
+
+.systemBackgroundOrangeLight {
+    background-color: #ff9500ff;
+}
+
+.systemBackgroundPinkLight {
+    background-color: #ff2d55ff;
+}
+
+.systemBackgroundPurpleLight {
+    background-color: #af52deff;
+}
+
+.systemBackgroundRedLight {
+    background-color: #ff3b30ff;
+}
+
+.systemBackgroundTealLight {
+    background-color: #5ac8faff;
+}
+
+.systemBackgroundYellowLight {
+    background-color: #ffcc00ff;
+}
+
+/* Tint Color Light */
+.systemBackgroundBlueLight {
+    background-color: #007affff;
+}
+
+.systemBackgroundGreenLight {
+    background-color: #34c759ff;
+}
+
+.systemBackgroundIndigoLight {
+    background-color: #5856d6ff;
+}
+
+.systemBackgroundOrangeLight {
+    background-color: #ff9500ff;
+}
+
+.systemBackgroundPinkLight {
+    background-color: #ff2d55ff;
+}
+
+.systemBackgroundPurpleLight {
+    background-color: #af52deff;
+}
+
+.systemBackgroundRedLight {
+    background-color: #ff3b30ff;
+}
+
+.systemBackgroundTealLight {
+    background-color: #5ac8faff;
+}
+
+.systemBackgroundYellowLight {
+    background-color: #ffcc00ff;
+}

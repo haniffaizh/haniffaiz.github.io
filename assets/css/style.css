@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/assets/fonts/sf-pro/SFProDisplay-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/assets/fonts/sf-pro/SFProDisplay-Bold.ttf") format("ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/assets/fonts/sf-pro/SFProDisplay-RegularItalic.ttf")
+        format("ttf");
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/assets/fonts/sf-pro/SFProDisplay-BoldItalic.ttf") format("ttf");
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("/assets/fonts/sf-pro/SFProText-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("/assets/fonts/sf-pro/SFProText-Regular.ttf") format("ttf");
+}
+
+html {
+    /* font-size: 16px; */
+    font-family: "SF Pro Display", sans-serif;
+}
+body {
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "SF Pro Display", sans-serif;
+}
+
+p h1 h2 h4 h4 h5 h6 {
+    color: #1d1d1f;
+}
+
+p {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 17px;
+    font-family: "SF Pro Text", sans-serif;
+}
+
+a {
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "SF Pro Text", sans-serif;
+}
+
+h2 {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 48px;
+    font-weight: light;
+}
+
+h2 {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 40px;
+    font-weight: light;
+}
+
+h5 {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.text-cond {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.typography-intro {
+    font-size: 21px;
+}
+
+/* .card-q {
+    width: 26rem;
+  } */
+
+.nav-transparent {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f5f5f7;
+    font-size: 14px;
+    backdrop-filter: blur(5px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.nav-brand-color {
+    color: #f5f5f7;
+    font-size: 16px;
+}
+
+.card-e {
+    width: 28rem;
+}
+
+.no-border {
+    border-color: #00000000;
+}
+
+.b-line-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    /* box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+        inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15); */
+}
+
+.sc-down {
+    padding-top: 4rem;
+    /* background-color: #000000; */
+}
+
+/* Timeline */
+.p-timeline {
+    /* text-align: justify; */
+    /* text-justify: inter-character; */
+    padding-right: 20px;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: " ";
+    background: #3c3c434a;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 1px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 30px 0;
+    padding-left: 30px;
+}
+ul.timeline > li:before {
+    content: " ";
+    background: #ebebf5ff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #3c3c434a;
+    left: 23px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+}
+
+/* color */
+.w3-ios-dark-blue {
+    color: #fff;
+    background-color: #5856d6;
+}
+.w3-ios-deep-blue {
+    color: #fff;
+    background-color: #007aff;
+}
+.w3-ios-blue {
+    color: #fff;
+    background-color: #34aadc;
+}
+.w3-ios-light-blue {
+    color: #fff;
+    background-color: #5ac8fa;
+}
+.w3-ios-green {
+    color: #000;
+    background-color: #4cd964;
+}
+.w3-ios-pink {
+    color: #fff;
+    background-color: #ff2d55;
+}
+.w3-ios-red {
+    color: #fff;
+    background-color: #ff3b30;
+}
+.w3-ios-orange {
+    color: #fff;
+    background-color: #ff9500;
+}
+.w3-ios-yellow {
+    color: #000;
+    background-color: #ffcc00;
+}
+.w3-ios-grey {
+    color: #fff;
+    background-color: #8e8e93;
+}
+.w3-ios-light-grey {
+    color: #000;
+    background-color: #ceced2;
+}
+.w3-ios-background {
+    color: #000;
+    background-color: #efeff4;
+}
+
+/* Rating */
+.crop-text {
+    -webkit-line-clamp: 2 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.cmpny-name {
+    color: #34aadc;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.dots {
+    height: 6px;
+    width: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-color: #8e8e93;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.num-reviews {
+    /* font-weight: 600; */
+    font-size: 13px;
+    color: #1d1d1f;
+}
+
+.ratings {
+    font-size: 14px;
+    color: #30d158ff;
+    margin-right: 3px;
+    padding-right: 0, 5px;
+}
+
+.rating-none {
+    color: #dad6d6;
+}
+
+.excellent {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.get-rating {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1d1d1f;
+}
+
+.rating-out {
+    margin-bottom: -8px;
+}
+
+.font-weight-bold {
+    font-size: 18px;
+    font-weight: 600;
+}
