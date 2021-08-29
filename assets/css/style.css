@@ -34,6 +34,7 @@
 html {
     /* font-size: 16px; */
     font-family: "SF Pro Display", sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     /* font-family: "Roboto", sans-serif; */
